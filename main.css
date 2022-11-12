@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+#wrapper{
+	background: black;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+a.button{
+	display: inline-block;
+	padding: 8px 16px;
+	background-color: white;
+	text-decoration: none;
+	border-radius: 20px;
+}
+a.button.next{
+	background: red;
+	color: white;
+}
+#img{
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+#img a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 30px;
+	text-decoration: none;
+}
